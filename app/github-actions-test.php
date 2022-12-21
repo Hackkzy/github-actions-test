@@ -1,6 +1,5 @@
 <?php
 
-function hello_wolrd()
-{
-    echo "Hello World!"
+function hello_wolrd() {
+	echo 'Hello World!';
 }
