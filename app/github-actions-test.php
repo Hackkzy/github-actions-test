@@ -2,5 +2,5 @@
 
 function hello_wolrd()
 {
-    echo "Hello World!";
+    echo "Hello World!"
 }
