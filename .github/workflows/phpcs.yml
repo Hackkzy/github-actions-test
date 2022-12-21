@@ -23,4 +23,4 @@ jobs:
         run: |
           composer i
           ./vendor/bin/phpcs --standard=WordPress --extensions=php app/
-          ./vendor/bin/phpcs --standard=PHPCompatibility --extensions=php app/
+          ./vendor/bin/phpcs --standard=PHPCompatibility --extensions=php app/ --runtime-set testVersion 5.3-8.0
