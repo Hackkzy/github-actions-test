@@ -13,6 +13,7 @@ jobs:
     - name: WordPress Textdomain
       uses: varunsridharan/action-wp-textdomain@2.0
       with:
+        path: 'app/'
         domain: 'github-actions-test'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
